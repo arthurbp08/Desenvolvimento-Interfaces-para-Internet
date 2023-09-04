@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to bottom, pink, rgb(187, 187, 187),rgb(233, 104, 175));
+    height: 75vw;
+    }
+    
+    h1{
+    color: color(a98-rgb red green blue);
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, 'Trebuchet MS', sans-serif;
+    }
+    
+    .caixaMagica{
+    margin: 70px;
+    width: 101px;
+    height: 101px;
+    border: solid 5px ;
+    border-radius: 20px;
+    }
+    button{
+    
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+        justify-self: first baseline;
+        border-radius: 20px;
+    }
