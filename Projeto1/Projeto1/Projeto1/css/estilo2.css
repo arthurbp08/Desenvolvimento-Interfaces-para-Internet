@@ -1,0 +1,16 @@
+body
+{
+    background-image: linear-gradient(to bottom, pink, rgb(187, 187, 187), rgb(233, 104, 175));
+    height: 75vw;
+    background-color: rgb(146, 88, 117);
+}
+
+.castelo img {
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+}
+h1 {
+    color: rgb(99, 100, 99);
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, 'Trebuchet MS', sans-serif;
+}

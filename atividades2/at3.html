@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function nota()
+        {
+            var name = document.getElementById("nome").value
+            var peso = Number(document.getElementById("pesoP").value)
+            var bebidas = Number(document.getElementById("bebidas").value)
+            
+            var vc = (bebidas * 4) + (peso * 20)
+
+            document.write("Nome: " + name)
+            document.write("<br>Valor a pagar: " + vc + "R$")
+        }
+    </script>
+</head>
+<body>
+    <input id="nome" type="text" placeholder="Insira seu nome">
+    <br><br>
+    <input id="pesoP" type="text" placeholder="Insira o peso do prato">
+    <br><br>
+    <input id="bebidas" type="text" placeholder="Quantidade de bebidas">
+    <hr>
+    <input type="submit" value="Enviar" id="botao" onclick="nota()">
+</body>
+</html>

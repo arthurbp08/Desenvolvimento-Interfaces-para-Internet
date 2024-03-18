@@ -1,0 +1,81 @@
+/* Centraliza horizontalmente o conteúdo do <nav> */
+body {
+    background-color: #264b72;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: inline-block;
+}
+
+/* Estiliza os botões de navegação */
+.botao {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 12px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos ao passar o mouse sobre os botões */
+.botao:hover {
+    background-color: #0056b3;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagem {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    border-radius: 15px;
+    height: auto;
+}
+
+/* Estilo da caixa */
+.caixa {
+    background-color: #716c76;
+    padding: 20px;
+    max-width: 1500px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa p {
+    font-size: 16px;
+}

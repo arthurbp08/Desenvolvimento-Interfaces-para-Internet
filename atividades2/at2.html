@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function calcular()
+        {
+            var num = Number(document.getElementById("valor").value)
+            var pesoT = Number(document.getElementById("peso").value)
+            var pesoPe 
+
+            switch(num)
+            {
+                case 1:
+                    pesoPe = (pesoT/10) * 0.37
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+
+                case 2:
+                    pesoPe = (pesoT/10) * 0.88
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+
+                case 3:
+                    pesoPe = (pesoT/10) * 0.38
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+
+                case 4:
+                    pesoPe = (pesoT/10) * 2.64
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+
+                case 5:
+                    pesoPe = (pesoT/10) * 1.15
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+
+                case 6:
+                    pesoPe = (pesoT/10) * 1.17
+                    alert("Seu peso (em quilos) no planeta escolhido é " + pesoPe)
+                break
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <input id="peso" type="text" placeholder="Insira seu peso na Terra">
+    <br><br>
+    <label>1 - Mercúrio</label>
+    <br>
+    <label>2 - Venus</label>
+    <br>
+    <label>3 - Marte</label>
+    <br>
+    <label>4 - Jupiter</label>
+    <br>
+    <label>5 - Saturno</label>
+    <br>
+    <label>6 - Urano</label>
+    <br><br>
+    <input id="valor" type="text" placeholder="Número">
+    <br>
+    <br>
+    <input type="submit" value="Enviar" id="botao" onclick="calcular()">
+</body>
+</html>
